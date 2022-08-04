@@ -16,7 +16,9 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="false"></service>
+            android:exported="false"
+            android:process=":myservice"
+            android:isolatedProcess="true"></service>
 
         <activity
             android:name=".MainActivity"
